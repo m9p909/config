@@ -3,6 +3,7 @@ import distro
 import os
 import typer
 import abc
+#note: I should work on mac soon, because I will need this for mac in may
 app = typer.Typer()
 def TODO(s):
     raise Exception("TODO: " +s)
