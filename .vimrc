@@ -1,14 +1,15 @@
 call plug#begin('~/.vim/plugged')
-
- " intellij like coloring
- Plug 'morhetz/gruvbox'
+ "sensible defaults"
+Plug 'tpope/vim-sensible'
+" intellij like coloring
+Plug 'morhetz/gruvbox'
  
  " intellisense type stuff
 Plug 'neoclide/coc.nvim'
 
 " clojure stuff"
-Plug 'guns/vim-clojure-static'
-Plug 'tpope/vim-fireplace'
+"Plug 'guns/vim-clojure-static'
+"Plug 'tpope/vim-fireplace'
 
 "rainbow brackets"
 Plug 'kien/rainbow_parentheses.vim'
@@ -17,6 +18,7 @@ Plug 'kien/rainbow_parentheses.vim'
 Plug 'preservim/nerdtree'
 Plug 'pangloss/vim-javascript'
 call plug#end()
+
 "coc config"
 "Other Configurations
 
